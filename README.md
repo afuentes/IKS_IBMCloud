@@ -17,6 +17,12 @@ https://console.bluemix.net/docs/containers/container_index.html#clusters_gs
 ### 4- Expose service to World 
 
 
-
+### 5- Local Enviroment to develop Web App ( node , npm , vue-cli )
 Vue-js + IKS 
+
+* macOS 
+brew update
+brew doctor
+brew upgrade node # update or install 
+
 
