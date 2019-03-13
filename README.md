@@ -1,6 +1,6 @@
 # Web App on IKS 
 
-How to create a simple Web App on IKS ()
+How to create a simple Web App on IBM Cloud Kubernetes Service
 
 ### 1- Created Cluster 
 * Prerequisites 
