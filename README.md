@@ -21,7 +21,7 @@ https://console.bluemix.net/docs/containers/container_index.html#clusters_gs
 Vue-js + IKS 
 
 * macOS 
-'''
+```
 $ brew update
 $ brew doctor
 $ brew upgrade node # update or install 
@@ -29,8 +29,6 @@ $ node -v # command to validate version of node
 v11.11.0 
 $ npm -v
 6.7.0
-
-'''
-
+```
 
 
