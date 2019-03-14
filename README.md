@@ -27,8 +27,9 @@ $ brew doctor
 $ brew upgrade node  # update or install 
 $ node -v            # command to validate version of node
 v11.11.0 
+$ npm install -g npm # update npm
 $ npm -v
-6.7.0
+6.9.0
 $ npm install -g @vue/cli 
 OR 
 $ npm update npm update -g @vue/cli # is installed
