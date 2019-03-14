@@ -29,6 +29,13 @@ $ node -v            # command to validate version of node
 v11.11.0 
 $ npm -v
 6.7.0
+$ npm install -g @vue/cli 
+OR 
+$ npm update npm update -g @vue/cli # is installed
+$ vue --version
+3.5.1
+
 ```
+Done de Prerequisites
 
 
