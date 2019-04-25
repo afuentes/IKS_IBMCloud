@@ -10,7 +10,7 @@ https://console.bluemix.net/docs/containers/container_index.html#clusters_gs
 
 ### 2- Validate is Cluster is Running 
 
-download kubeconfig zip file 
+download kubeconfig zip file from ibm cloud ( Access Option)
 ```
 $ mkdir imbcloud
 $ cd ibmcloud
