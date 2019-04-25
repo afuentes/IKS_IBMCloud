@@ -10,6 +10,20 @@ https://console.bluemix.net/docs/containers/container_index.html#clusters_gs
 
 ### 2- Validate is Cluster is Running 
 
+download kubeconfig zip file 
+```
+$ mkdir imbcloud
+$ cd ibmcloud
+$ cp /path/kubeconfig . 
+$ unzip kubeconfig
+$ kubectl --kubeconfig ./kubeConfig286848492/kube-config-hou02-mycluster.yml get nodes
+NAME           STATUS   ROLES    AGE   VERSION
+10.47.79.213   Ready    <none>   27m   v1.12.7+IKS
+$ export KUBECONFIG=$HOME/ibmcloud/kubeConfig286848492/kube-config-hou02-mycluster.yml 
+$ kubectl get nodes 
+NAME           STATUS   ROLES    AGE   VERSION
+10.47.79.213   Ready    <none>   27m   v1.12.7+IKS
+```
 
 ### 3- Deploy Container on Cluster 
 
