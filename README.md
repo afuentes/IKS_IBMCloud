@@ -26,7 +26,7 @@ NAME           STATUS   ROLES    AGE   VERSION
 ```
 ### 3- Validate Resource on IKS Cluster 
 
-Vaidate cpu Allocatable in Started Cluster - 1920m
+Vaidate cpu allocatable in started cluster - 1920m
 
 ```
 $ kubectl get svc --kubeconfig=./kubeConfig311401334/kube-config-hou02-mycluster.yml
