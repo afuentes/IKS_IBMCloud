@@ -41,5 +41,5 @@ Allocated resources:
 
 ```
 
-### 3- Comming Soon 
+### 3- Coming Soon 
 
