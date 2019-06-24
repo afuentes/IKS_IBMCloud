@@ -1,6 +1,8 @@
 # Web App on IBM Cloud Kubernetes Services 
 
-How to create a simple Web App on IBM Cloud Kubernetes Service
+How to create a simple Web App on IBM Cloud Kubernetes Service.
+
+The free cluster has one virtual worker node that is grouped into a worker pool, with 2 CPU, 4 GB memory, and a single 100 GB SAN disk available for your apps to use. 
 
 ### 1- Created Cluster 
 * Prerequisites 
@@ -42,4 +44,9 @@ Allocated resources:
 ```
 
 ### 3- Coming Soon 
+
+
+### Resource 
+
++ https://cloud.ibm.com/docs/containers?topic=containers-getting-started
 
