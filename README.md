@@ -1,4 +1,4 @@
-# Web App on IKS 
+# Web App on IBM Cloud Kubernetes Services 
 
 How to create a simple Web App on IBM Cloud Kubernetes Service
 
