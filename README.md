@@ -1,6 +1,6 @@
 # Web App on IBM Cloud Kubernetes Services 
 
-How to create a simple Web App on IBM Cloud Kubernetes Service.
+How to deploy a simple NGINX on IBM Cloud Kubernetes Service.
 
 The free cluster has one virtual worker node that is grouped into a worker pool, with 2 CPU, 4 GB memory, and a single 100 GB SAN disk available for your apps to use. 
 
