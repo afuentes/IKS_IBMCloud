@@ -96,7 +96,7 @@ ID                                                 Public IP        Private IP  
 kube-hou02-pa792b4d0fad7b484688b3da914f059689-w1   173.193.99.137   10.76.68.175   free           normal   Ready    hou02   1.13.7_1527  
 ```
 
-the url is http://<public ip>:<NodePort>
+the url is "http://<public ip>:<NodePort>"
 
 ```
 $ curl http://173.193.99.137:31747 
