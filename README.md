@@ -66,4 +66,5 @@ Nota : In this step , NGINX is not reachable from outside cluster. The command $
 ### Resource 
 
 + https://cloud.ibm.com/docs/containers?topic=containers-getting-started
++ https://www.ibm.com/cloud/blog/announcements/kubernetes-v1-13-2-is-now-available-in-ibm-cloud-kubernetes-service
 
