@@ -4,6 +4,10 @@ How to deploy a simple NGINX on IBM Cloud Kubernetes Service.
 
 The free cluster has one virtual worker node that is grouped into a worker pool, with 2 CPU, 4 GB memory, and a single 100 GB SAN disk available for your apps to use. 
 
+![IBM Cloud Kubernetes Service](/IKS_01.png)
+![Resource Cluster](/IKS_02.png)
+
+
 ### 1- Created Cluster 
 * Prerequisites 
   - IBM Cloud Acoount 
