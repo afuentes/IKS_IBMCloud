@@ -59,7 +59,7 @@ Validate Welcome to nginx! Page  http://localhost:9999
 
 Nota : In this step , NGINX is not reachable from outside cluster. The command $kubectl port-fordward give to capability to access to inside kubernetes cluster.  
 
-### 4- Expose NGINX to Internet 
+### 4- Expose NGINX to World 
 
 
 
