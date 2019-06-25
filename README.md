@@ -43,7 +43,24 @@ Allocated resources:
 
 ```
 
-### 3- Coming Soon 
+### 3- Deploy NGINX on IKS
+
+Using the nginx_deployment.yaml file 
+
+```
+$ kubectl apply -f nginx_deployment.yaml  --kubeconfig=./kubeConfig311401334/kube-config-hou02-mycluster.yml
+deployment.apps/nginx-deployment configured
+$ kubectl get pod --kubeconfig=./kubeConfig311401334/kube-config-hou02-mycluster.yml
+NAME                               READY   STATUS    RESTARTS   AGE
+nginx-deployment-d44749686-vkmml   1/1     Running   0          12m
+$ kubectl port-forward  nginx-deployment-5cddcdff4d-xw4w5  9999:80  --kubeconfig=./kubeConfig311401334/kube-config-hou02-mycluster.yml
+```
+Validate Welcome to nginx! Page  http://localhost:9999 
+
+Nota : In this step , NGINX is not reachable from outside cluster. The command $kubectl port-fordward give to capability to access to inside kubernetes cluster.  
+
+### 4- Expose NGINX to Internet 
+
 
 
 ### Resource 
