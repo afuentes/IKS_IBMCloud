@@ -61,7 +61,61 @@ Nota : In this step , NGINX is not reachable from outside cluster. The command $
 
 ### 4- Expose NGINX to World 
 
+```
+$ kubectl apply -f nginx_service.yaml  --kubeconfig=./kubeConfig311401334/kube-config-hou02-mycluster.yml
+$ kubectl describe service nginx-service  --kubeconfig=./kubeConfig311401334/kube-config-hou02-mycluster.yml
+Name:                     nginx-service
+Namespace:                default
+Labels:                   <none>
+Annotations:              kubectl.kubernetes.io/last-applied-configuration:
+                            {"apiVersion":"v1","kind":"Service","metadata":{"annotations":{"service.kubernetes.io/ibm-load-balancer-cloud-provider-enable-features":"i...
+                          service.kubernetes.io/ibm-load-balancer-cloud-provider-enable-features: ipvs
+Selector:                 app=nginx-deployment
+Type:                     NodePort
+IP:                       172.21.19.42
+Port:                     http  80/TCP
+TargetPort:               80/TCP
+NodePort:                 http  30275/TCP
+Endpoints:                172.30.60.74:80
+Session Affinity:         None
+External Traffic Policy:  Local
+Events:                   <none>
+```
 
+### 5- Access to IKS from Internet using NodePort & Public IP  
+
+Validate the Public IP from IBM Cloud Console (IBM Cloud --> Clusters --> mycluster --> Worker Nodes --> Public IP)
+
+the url is http://<public ip>:<NodePort>
+
+```
+$ curl http://173.193.99.137:31747 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+<style>
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+</style>
+</head>
+<body>
+<h1>Welcome to nginx!</h1>
+<p>If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.</p>
+
+<p>For online documentation and support please refer to
+<a href="http://nginx.org/">nginx.org</a>.<br/>
+Commercial support is available at
+<a href="http://nginx.com/">nginx.com</a>.</p>
+
+<p><em>Thank you for using nginx.</em></p>
+</body>
+</html>
+```
 
 ### Resource 
 
