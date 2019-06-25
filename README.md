@@ -31,7 +31,7 @@ NAME           STATUS   ROLES    AGE   VERSION
 Vaidate cpu allocatable in started cluster - 1920m
 
 ```
-$ kubectl get svc --kubeconfig=./kubeConfig311401334/kube-config-hou02-mycluster.yml
+$ kubectl get node --kubeconfig=./kubeConfig311401334/kube-config-hou02-mycluster.yml
 ...
 Allocated resources:
   (Total limits may be over 100 percent, i.e., overcommitted.)
