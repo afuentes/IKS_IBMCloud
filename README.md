@@ -1,4 +1,4 @@
-# Web App on IBM Cloud Kubernetes Services 
+# IBM Cloud Kubernetes Services 
 
 How to deploy a simple NGINX on IBM Cloud Kubernetes Service.
 
