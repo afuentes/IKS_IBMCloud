@@ -84,7 +84,17 @@ Events:                   <none>
 
 ### 5- Access to IKS from Internet using NodePort & Public IP  
 
+1- Public IP from Console 
 Validate the Public IP from IBM Cloud Console (IBM Cloud --> Clusters --> mycluster --> Worker Nodes --> Public IP)
+
+2- Public IP using ibmcloud command 
+
+```
+$ ibmcloud cs workers mycluster
+OK
+ID                                                 Public IP        Private IP     Machine Type   State    Status   Zone    Version   
+kube-hou02-pa792b4d0fad7b484688b3da914f059689-w1   173.193.99.137   10.76.68.175   free           normal   Ready    hou02   1.13.7_1527  
+```
 
 the url is http://<public ip>:<NodePort>
 
@@ -116,6 +126,7 @@ Commercial support is available at
 </body>
 </html>
 ```
+DONE !!!
 
 ### Resource 
 
